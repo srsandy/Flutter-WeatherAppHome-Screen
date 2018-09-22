@@ -3,7 +3,8 @@
 A new Flutter application. 
 
 Designed the Following Layout in Flutter Jam, Google Developer Group
-![screenshot_1537642878](https://user-images.githubusercontent.com/21126403/45920855-38c56f80-bec8-11e8-8ec7-956893dbcc81.png)
+![screen shot 2018-09-23 at 12 36 03 am](https://user-images.githubusercontent.com/21126403/45920916-f94b5300-bec8-11e8-9a1c-b31538d124ad.png)
+
 
 
 ## Getting Started
