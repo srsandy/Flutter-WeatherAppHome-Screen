@@ -34,7 +34,7 @@ class WeatherAppHome extends StatelessWidget {
                 ),
               ),
               Icon(Icons.keyboard_arrow_down,
-                color: Colors.black87,
+                color: Color(0xff343434),
                 size: 12.0,
               )
             ],
@@ -49,7 +49,7 @@ class WeatherAppHome extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Icon(IconData(0xe142, fontFamily: 'typicons'),
-          color: Colors.black,
+          color: Color(0xff343434),
           size: 120.0,
         ),
         SizedBox(width: 20.0,),
@@ -75,18 +75,18 @@ class WeatherAppHome extends StatelessWidget {
   static getItem(IconData iconData, int value, String measure){
     return new Column(
       children: <Widget>[
-        Icon(iconData, color: Colors.black87, size: 28.0,),
+        Icon(iconData, color: Color(0xff343434), size: 28.0,),
         SizedBox(height: 4.0,),
         Text('$value', style: TextStyle(
             fontSize: 20.0,
-            color: Colors.black87,
+            color: Color(0xff343434),
             fontWeight: FontWeight.w300
         ),
         ),
         Text('$measure',
           style: TextStyle(
               fontSize: 12.0,
-              color: Colors.black87,
+              color: Color(0xff343434),
               fontWeight: FontWeight.w300
           ),
         )
